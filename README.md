@@ -13,11 +13,11 @@ Add appsettings section appropriately to environment contains:
   }
 
 
-## 
+## Presentation
 
 For UI purpose you can use swagger (default: https://localhost:7279/swagger/index.html)
 
-### 
+### Technical description
 
 Application is separated for command and queries with MediatR package. Endpoints are created via minimal api. 
 Chosen architecture is clean are good to start for now without domain part as is not needed.
